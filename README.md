@@ -24,6 +24,8 @@ THEN I am again presented with current and future conditions for that city
 
 
 ## Credits
+W3 schools
+https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys
 
 
 

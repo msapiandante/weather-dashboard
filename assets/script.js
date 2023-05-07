@@ -1,6 +1,5 @@
 const apiKey = '733b95829a33c6d5f7357c456d173759';
-
-// Get references to HTML elements
+let searchHistoryData = [];
 const searchForm = document.querySelector('#search-form');
 const cityInput = document.querySelector('#city-input');
 const searchHistory = document.querySelector('#search-history');
@@ -72,6 +71,12 @@ async function handleFormSubmit(event) {
     listItem.textContent = city;
     searchHistory.appendChild(listItem);
 
+    searchHistoryData.push(city);
+
+    // Display search history
+    const historyHtml = searchHistoryData.map(city => `<li><a href="#" data-city="${city}">${city}</a></li>`).join('');
+    searchHistory.innerHTML = historyHtml;
+
     // Clear input field
     cityInput.value = '';
   }
@@ -79,3 +84,5 @@ async function handleFormSubmit(event) {
 
 // Event listener for form submission
 searchForm.addEventListener('submit', handleFormSubmit);
+
+
