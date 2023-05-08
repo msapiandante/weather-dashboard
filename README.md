@@ -1,14 +1,13 @@
 # weather-dashboard
+## User Story
 
-## Description
-
-User Story: 
+```
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 
-Acceptance Criteria: 
+## Acceptance Criteria
 
 ```
 GIVEN a weather dashboard with form inputs
@@ -20,12 +19,15 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
-```
 
+## Description
+I am resubmitting as I have continued to learn and develop my skills as a web developer. I updated javascript and HTML files to better meet the acceptance criteria for this assignment.
 
 ## Credits
 W3 schools
 https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys
+https://forum.freecodecamp.org/t/weather-app-weather-api-callback-not-working/11731
+https://openweathermap.org/api 
 
 
 
